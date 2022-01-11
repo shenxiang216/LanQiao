@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "typeinfo": "cpp",
+        "iomanip": "cpp"
+    },
+    "code-runner.executorMap": {
+        // 此为单文件编译：
+        "cpp":" cd $dir && g++ $fileName -D LOCAL -o        .\\build\\$fileNameWithoutExt.exe && .\\build\\$fileNameWithoutExt.exe", 
+    }
+    
+
+}
