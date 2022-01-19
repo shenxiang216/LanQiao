@@ -30,13 +30,13 @@ int main()
             dp[i][j] = max(dp[i - 1][j] + dp[i][j], dp[i][j - 1] + dp[i][j]);
         }
     }
-    //dp数组右下角的值即为最大值
-    for (int i = 0; i < num; i++)
-    {
-        for (int j = 0; j < num; j++)
-            cout << dp[i][j];
-        cout << endl;
-    }
+    // //dp数组右下角的值即为最大值
+    // for (int i = 0; i < num; i++)
+    // {
+    //     for (int j = 0; j < num; j++)
+    //         cout << dp[i][j];
+    //     cout << endl;
+    // }
     cout << dp[num - 1][num - 1];
     return 0;
 }
